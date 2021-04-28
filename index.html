@@ -3,30 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
     <title>Disney Through the Ages</title>
 </head>
 <body>
-    <div id="header">
+    <div id="welcomeMessage">
         <p>
             <span id="title"<p>Disney Through the Ages</p></span>
             <span id="description">View the timeline of various Disney industries and the Disney company itself</span>
         </p>
     </div>
-    <div id="sidebar">
-        <div id="movie" class="selectionCircle">
-            <img src="images/movie.jpg">
+    <div id="mainContent">
+        <div id="sidebar">
+            <div id="movie" class="selectionCircle">
+                <img src="images/movie.jpg">
+                <div id="industryOverlay">
+                    <p class="industryName">MOVIES</p>
+                </div>
+            </div>
+            <div id="themeParks" class="selectionCircle">
+                <img src="images/themeparks.jpg">
+                <div id="industryOverlay">
+                    <p class="industryName">PARKS <br> a</p>
+                </div>
+            </div>
+            <div id="characters" class="selectionCircle">
+                <img src="images/characters.jpg">
+                <div id="industryOverlay">
+                    <p class="industryName">CHARACTERS</p>
+                </div>
+            </div>
+            <div id="cruiseShips" class="selectionCircle">
+                <img src="images/cruiseship.jpg">
+                <div id="industryOverlay">
+                    <p class="industryName">SHIPS</p>
+                </div>
+            </div>
+            <div id="leadership" class="selectionCircle">
+                <img src="images/leadership.jpg">
+                <div id="industryOverlay">
+                    <p class="industryName">LEADERS</p>
+                </div>
+            </div>
         </div>
-        <div id="themeParks" class="selectionCircle">
-            <img src="images/themeparks.jpg">
-        </div>
-        <div id="characters" class="selectionCircle">
-            <img src="images/characters.jpg">
-        </div>
-        <div id="cruiseShips" class="selectionCircle">
-            <img src="images/cruiseship.jpg">
-        </div>
-        <div id="leadership" class="selectionCircle">
-            <img src="images/leadership.jpg">
+        <div id="allMovies">
+    
         </div>
     </div>
 </body>
